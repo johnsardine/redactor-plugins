@@ -1,4 +1,7 @@
-redactor-plugins
+Redactor Plugins
 ================
+[http://imperavi.com/redactor/](http://imperavi.com/redactor/)
 
-collection of plugins developed by me for redactor-js, a WYSIWYG rich-text editor
+Collection of plugins developed by me for Redactor, a WYSIWYG rich-text editor
+
+* clean_text.js - Removes formatting from selected text
