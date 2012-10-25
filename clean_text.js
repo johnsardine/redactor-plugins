@@ -30,11 +30,11 @@ RedactorPlugins.clean_text = {
 			// Set buffer (allows undo shortcut)
 			redactor.setBuffer();
 
-			// Sync code
-			redactor.syncCode();
-
 			// Replace selection with clean text
 			redactor.insertHtml(html);
+			
+			// Sync code
+			redactor.syncCode();
 		});
 
 		// Add separator before button
