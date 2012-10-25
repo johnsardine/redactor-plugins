@@ -27,10 +27,17 @@ RedactorPlugins.clean_text = {
 			// Strip out html
 			html = html.replace(/(<([^>]+)>)/ig,"");
 
+			// Set buffer (allows undo shortcut)
+			redactor.setBuffer();
+
+			// Sync code
+			redactor.syncCode();
+
 			// Replace selection with clean text
 			redactor.insertHtml(html);
 		});
 
+		// Add separator before button
 		this.addBtnSeparatorBefore('clean_text');
 
 		// Add icon to button
