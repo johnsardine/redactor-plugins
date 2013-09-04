@@ -11,3 +11,4 @@ Feel free to contribute to this repository.
 * fontfamily.js - Changes the font family
 * fontsize.js - Changes the font size specified in pixels
 * blockquotebreak.js - Redactor plugin to break blockquote like gmail
+* fullscreen.js - The "fullscreen" mode is now a plugin on the toolbar to toggle full-window editing on and off
